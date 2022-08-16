@@ -4,14 +4,14 @@ import "fmt"
 
 func main(){
 	//! DECLARING AND ASSIGNING
-	var  favBook = "Harry Potter"
-	var favBook2 = "Harry Potter"
+	var favBook = "Harry Potter"
+	var favBook2 string = "Harry Potter 2"
 
 	fmt.Println(favBook) // Harry Potter
 	fmt.Printf("%T", favBook) //string
 	fmt.Println()
 
-	fmt.Println(favBook2) // Harry Potter
+	fmt.Println(favBook2) // Harry Potter2
 	fmt.Printf("%T", favBook2) //string
 	fmt.Println()
 
